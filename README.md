@@ -15,10 +15,11 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 ### Screenshot
 
 ![desktop-screenshot](./screenshot.png)
+![mobile-screenshot](./screenshot1.png)
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/gzeta24/age-calculator-app/
 - Live site:
 
 ## My process
