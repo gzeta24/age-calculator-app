@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 90%);
+    font-family: 'Poppins', sans-serif;
+}
+.inputs-labels {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    border-bottom-right-radius: 175px;
+    width: 600px;
+    height: 500px;
+    padding: 1rem 3rem;
+    min-width: 22rem;
+}
+.inputs-box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.4rem;
+    align-items: flex-start;
+    width: 100%;
+}
+.input-p {
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    color: hsl(0, 1%, 44%);
+}
+input {
+    width: 9rem;
+    height: 4.125rem;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 86%);
+    border-width: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding: 15px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    border-style: solid;
+}
+input:focus {
+    outline: none;
+    border-color: hsl(259, 100%, 65%);
+}
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    cursor: pointer;
+    border-radius: 100%;
+}
+#button {
+    display: flex;
+    padding: 0;
+    border-radius: 100%;
+}
+.hr-container {
+    display: flex;
+    flex-grow: 1;
+}
+hr {
+    flex: 0 0 100%;
+    border-color: rgba(255, 255, 255, 0.411);
+    align-self: center;
+}
+.button {
+    background-color: black;
+    border-radius: 100%;
+    padding: 20px;
+}
+.button:hover {
+    background-color: hsl(259, 100%, 65%);
+}
+h2 {
+    font-size: 80px;
+    font-weight: 800i;
+    font-style: italic;
+}
+.age-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    align-items: flex-start;
+    width: 100%;
+}
+.age {
+    margin: 0;
+}
+#years, #months, #days {
+    font-size: 80px;
+    font-weight: 800i;
+    color: hsl(259, 100%, 65%);
+}
+.input-required {
+    color: hsl(0, 100%, 67%);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0px;
+}
+
+/* MEDIA QUERYS */
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 650px) {
+    .header {
+        padding: 1rem 2rem;
+    }
+    input {
+        width: 7rem;
+        height: 4rem;
+    }
+    .inputs-box {
+        margin-bottom: 25px;
+        align-self: center;
+        justify-content: space-between;
+        column-gap: 0;
+    }
+    .age {
+        font-size: 3.8rem;
+    }
+    #years, #months, #days {
+        font-size: 3.8rem;
+    }
+    .button-box {
+        height: 100px;
+        justify-content: center;
+    }
+    .button {
+        display: flex;
+        align-self: center;
+        position: absolute;
+        padding: 10px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
