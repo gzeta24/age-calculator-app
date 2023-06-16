@@ -20,7 +20,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: https://github.com/gzeta24/age-calculator-app/
-- Live site:
+- Live site: https://gzeta24.github.io/age-calculator-app/
 
 ## My process
 
